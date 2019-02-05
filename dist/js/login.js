@@ -1,0 +1,1 @@
+"use strict";$(function(){$(".loginBtn").click(function(){$.ajax({type:"post",data:{name:$("#username").val(),password:$("#pwd").val()},success:function(n){console.log(n),location.href="index.html"},error:function(n){}})})});
